@@ -1,0 +1,28 @@
+{
+  "name": "ai-code-reviewer-backend",
+  "version": "1.0.0",
+  "description": "Backend API for AI Code Reviewer & Mentor",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --experimental-test tests/*.test.js"
+  },
+  "keywords": ["ai", "code-review", "mentor"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.2.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^7.1.5",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "express-validator": "^7.0.1",
+    "winston": "^3.11.0",
+    "uuid": "^9.0.1"
+  }
+}
